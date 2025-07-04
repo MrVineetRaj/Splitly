@@ -1,13 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import React from "react";
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Groups = () => {
   return (
-    <SafeAreaView>
-      <Text>Groups</Text>
+    <SafeAreaView className="bg-black">
+      <View className="bg-red-500">
+      <Text className="text-green-500">Groups k</Text></View>
     </SafeAreaView>
   );
-}
+};
 
-export default Groups
+export default Groups;
